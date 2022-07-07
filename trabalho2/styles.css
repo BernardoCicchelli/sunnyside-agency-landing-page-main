@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,600&family=Fraunces:ital,wght@0,900;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Barlow", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90vh;
+  background-image: url("/images/desktop/image-header.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  padding-bottom: 30%;
+  align-items: center;
+}
+header nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+header nav .menu {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+header nav .menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+header nav .menu .contact {
+  border: none;
+  height: 56px;
+  width: 140px;
+  font-family: "Fraunces";
+  font-size: 15px;
+  color: #24303e;
+  border-radius: 28px;
+}
+header h1 {
+  font-family: "Fraunces";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 69px;
+  letter-spacing: 8.75px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+header .arrow-down {
+  width: 30px;
+  height: 107px;
+}
+
+.learn-more {
+  display: flex;
+  flex-wrap: wrap;
+}
+.learn-more .boxes {
+  width: 50%;
+}
+.learn-more .boxes h2 {
+  font-family: "Fraunces";
+  font-size: 40px;
+  font-weight: 900;
+}
+.learn-more .boxes p {
+  font-family: "Barlow";
+  font-size: 18px;
+  color: #808397;
+}
+.learn-more .boxes a {
+  font-family: "Fraunces";
+  font-size: 15px;
+  border-bottom: 2px solid yellow;
+  font-weight: 900;
+  color: #24303e;
+  text-decoration: none;
+}
+.learn-more .boxes img {
+  width: 100%;
+  height: 100%;
+}
+.learn-more .boxes .box-content {
+  position: relative;
+  top: 435px;
+}
+.learn-more .b-txt {
+  padding: 10%;
+  gap: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.learn-more .cherry {
+  background-image: url("/images/desktop/image-graphic-design.jpg");
+  height: 619px;
+  background-size: cover;
+}
+.learn-more .cherry h2 {
+  font-family: "Fraunces";
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #24554a;
+}
+.learn-more .cherry p {
+  font-family: "Barlow";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  color: #3e7467;
+}
+.learn-more .orange {
+  background-image: url("/images/desktop/image-photography.jpg");
+  height: 619px;
+  background-size: cover;
+}
+.learn-more .orange h2 {
+  font-family: "Fraunces";
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #052c3b;
+}
+.learn-more .orange p {
+  font-family: "Barlow";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  color: #19536c;
+}
+
+.client {
+  padding: 139px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.client h4 {
+  margin-bottom: 40px;
+  font-family: "Fraunces";
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #a7aaad;
+}
+.client p {
+  font-family: "Barlow";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+  color: #5B636D;
+}
+.client-box {
+  display: flex;
+  gap: 261px;
+}
+.client-box .client-card {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  align-items: center;
+}
+.client-box .client-card p {
+  text-align: center;
+}
+.client-box .client-card img {
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+}
+.client-box .client-card .client-spans {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  align-items: center;
+}
+.client-box .client-card .client-spans .client-name {
+  font-family: "Fraunces";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 22px;
+}
+.client-box .client-card .client-spans .client-job {
+  font-family: "Barlow";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  color: #A7AAAD;
+}
+
+.gallery {
+  display: flex;
+  width: 100%;
+}
+.gallery img {
+  width: 25%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background: #90d4c6;
+  align-items: center;
+  padding: 104px;
+}
+footer img {
+  margin-left: 43px;
+}
+footer .footer-menu a {
+  padding: 0 20px 0 20px;
+  text-decoration: none;
+  font-family: "Barlow";
+  font-size: 18px;
+  color: #458d7e;
+}
+footer .footer-svg {
+  margin-right: 46px;
+}
+
+/*# sourceMappingURL=styles.css.map */

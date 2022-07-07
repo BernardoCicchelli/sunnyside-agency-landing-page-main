@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 129px;
+}
+.container__choices {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffc499;
+  width: 692px;
+  height: 553px;
+  border-radius: 57px;
+  flex-direction: column;
+  gap: 103px;
+  font-size: 20px;
+}
+.cards__card {
+  display: flex;
+  gap: 28px;
+  flex-direction: column;
+}
+.cards__picture {
+  order: 1;
+}
+.cards__choice {
+  width: 100px;
+  height: 85px;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+}
+.score__pointer {
+  margin-right: 11px;
+  width: 204px;
+  height: 342px;
+  border: none;
+  border-radius: 30px;
+  font-size: 25px;
+  background-color: white;
+}
+
+.crown__picture {
+  width: 71px;
+}
+
+/*# sourceMappingURL=styles.css.map */

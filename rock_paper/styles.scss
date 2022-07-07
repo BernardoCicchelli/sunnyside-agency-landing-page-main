@@ -1,0 +1,61 @@
+@use "./modules" as *;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+
+body {
+  height: 100vh;
+  background-color: $body-background;
+  @include flex-center;
+}
+
+.container {
+  padding: 129px;
+
+  &__choices {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  }
+}
+
+.cards {
+  @include flex-center;
+  background: #ffc499;
+  width: 692px;
+  height: 553px;
+  border-radius: 57px;
+  flex-direction: column;
+  gap: 103px;
+  font-size: 20px;
+  &__card {
+    display: flex;
+    gap: 28px;
+    flex-direction: column;
+  }
+  &__picture {
+    order: 1;
+  }
+  &__choice {
+    width: 100px;
+    height: 85px;
+  }
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  &__pointer {
+    margin-right: 11px;
+    width: 204px;
+    height: 342px;
+    border: none;
+    border-radius: 30px;
+    font-size: 25px;
+    background-color: white;
+  }
+}
+
+.crown {
+  &__picture {
+    width: 71px;
+  }
+}
